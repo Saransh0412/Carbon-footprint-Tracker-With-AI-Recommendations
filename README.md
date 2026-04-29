@@ -2,6 +2,11 @@
 
 A full-stack web application that helps individuals and small businesses track and reduce their carbon footprint through AI-powered personalized recommendations.
 
+
+Video Demo Link : https://drive.google.com/file/d/1--PWK8ZkHQxWNRPtajjvANAEv5Q4jvLw/view?usp=drive_link
+
+AI usage Report:https://drive.google.com/file/d/1NiGM8V1KsQNYzLVbkb9CQPKqjfimO08X/view?usp=drive_link
+
 ## ✨ Features
 
 - **User Authentication**: Secure registration and login with Firebase Auth (Email/Password + Google Sign-in)
