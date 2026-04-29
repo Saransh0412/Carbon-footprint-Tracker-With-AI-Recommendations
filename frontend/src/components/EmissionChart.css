@@ -1,0 +1,16 @@
+/**
+ * Emission Chart Component Styles
+ */
+
+.emission-chart {
+    width: 100%;
+}
+
+.chart-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    color: var(--text-secondary);
+    font-size: 14px;
+}

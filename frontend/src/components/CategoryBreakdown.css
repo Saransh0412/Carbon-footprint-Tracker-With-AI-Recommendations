@@ -1,0 +1,47 @@
+/**
+ * Category Breakdown Component Styles
+ */
+
+.category-breakdown {
+    width: 100%;
+}
+
+.breakdown-stats {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.breakdown-item {
+    display: grid;
+    grid-template-columns: 16px 1fr auto auto;
+    gap: 12px;
+    align-items: center;
+    padding: 12px;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-sm);
+}
+
+.breakdown-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+}
+
+.breakdown-label {
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.breakdown-value {
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.breakdown-percentage {
+    font-weight: 600;
+    color: var(--primary-color);
+    min-width: 50px;
+    text-align: right;
+}

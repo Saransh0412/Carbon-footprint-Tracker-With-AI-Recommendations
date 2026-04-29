@@ -1,0 +1,46 @@
+/**
+ * Activity Form Component Styles
+ */
+
+.activity-form h2 {
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.emissions-preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(16, 185, 129, 0.05));
+    padding: 16px 20px;
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--primary-color);
+    margin: 20px 0;
+}
+
+.emissions-preview span {
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.emissions-preview strong {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+.form-actions .btn {
+    flex: 1;
+}
+
+@media (max-width: 640px) {
+    .form-actions {
+        flex-direction: column-reverse;
+    }
+}

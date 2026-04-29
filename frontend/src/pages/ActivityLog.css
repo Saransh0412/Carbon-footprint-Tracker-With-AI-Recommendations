@@ -1,0 +1,206 @@
+/**
+ * Activity Log Page Styles
+ */
+
+.activity-log-container {
+    min-height: 100vh;
+    background: var(--bg-secondary);
+    padding: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 32px;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 8px;
+    transition: color 0.2s ease;
+}
+
+.back-btn:hover {
+    color: var(--primary-color);
+}
+
+.page-header h1 {
+    font-size: 32px;
+    margin-bottom: 4px;
+}
+
+.page-header p {
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.modal-content {
+    background: var(--bg-card);
+    border-radius: var(--radius-lg);
+    padding: 32px;
+    width: 100%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    animation: fadeIn 0.2s ease;
+}
+
+.activities-section {
+    background: var(--bg-card);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    box-shadow: var(--shadow-sm);
+}
+
+.empty-state {
+    text-align: center;
+    padding: 80px 20px;
+    color: var(--text-secondary);
+}
+
+.empty-state p {
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+.activities-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.activity-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    transition: all 0.2s ease;
+    border: 2px solid transparent;
+}
+
+.activity-card:hover {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-md);
+}
+
+.activity-icon {
+    font-size: 36px;
+    flex-shrink: 0;
+}
+
+.activity-details {
+    flex: 1;
+    min-width: 0;
+}
+
+.activity-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.activity-header h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.activity-date {
+    color: var(--text-secondary);
+    font-size: 13px;
+}
+
+.activity-info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.category-badge {
+    background: var(--primary-color);
+    color: white;
+    padding: 4px 12px;
+    border-radius: var(--radius-sm);
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.amount {
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.activity-description {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.activity-emissions {
+    text-align: center;
+    padding: 12px;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    color: white;
+    border-radius: var(--radius-md);
+    flex-shrink: 0;
+}
+
+.emissions-value {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.emissions-unit {
+    font-size: 11px;
+    opacity: 0.9;
+    margin-top: 4px;
+}
+
+.activity-actions {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+    .page-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .activity-card {
+        flex-wrap: wrap;
+    }
+
+    .activity-emissions {
+        order: -1;
+        width: 100%;
+    }
+}

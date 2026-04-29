@@ -1,0 +1,50 @@
+/**
+ * Recommendation Card Component Styles
+ */
+
+.recommendation-card {
+    display: flex;
+    gap: 16px;
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.05), rgba(59, 130, 246, 0.05));
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--primary-color);
+    transition: all 0.3s ease;
+    animation: fadeIn 0.4s ease;
+}
+
+.recommendation-card:hover {
+    transform: translateX(4px);
+    box-shadow: var(--shadow-md);
+    border-left-width: 6px;
+}
+
+.recommendation-icon {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.recommendation-content {
+    flex: 1;
+}
+
+.recommendation-number {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+.recommendation-text {
+    color: var(--text-primary);
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+@media (max-width: 640px) {
+    .recommendation-card {
+        flex-direction: column;
+    }
+}
