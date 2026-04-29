@@ -171,7 +171,13 @@ The app uses these simplified formulas (you can refine them through research):
 
 ## 📱 Screenshots
 
-_(Add screenshots after deployment)_
+<img width="1316" height="861" alt="image" src="https://github.com/user-attachments/assets/bc118882-1e43-410d-a001-c80255bf57d2" />
+<img width="1821" height="507" alt="image" src="https://github.com/user-attachments/assets/78dc5315-98ad-4f04-a257-d550655ba35f" />
+<img width="1769" height="735" alt="image" src="https://github.com/user-attachments/assets/d52354f3-46f7-47ad-871b-39654efb2a4b" />
+<img width="1524" height="395" alt="image" src="https://github.com/user-attachments/assets/0f56fad8-16ed-41fc-9d07-f5d3520b248b" />
+<img width="1548" height="759" alt="image" src="https://github.com/user-attachments/assets/c11e53b7-0ecc-480f-a9c2-f1e6f1f7bbf2" />
+<img width="736" height="634" alt="image" src="https://github.com/user-attachments/assets/cfd9e7c6-b757-43c5-99ee-52d939fc7828" />
+
 
 ## 🤝 Contributing
 
@@ -183,4 +189,4 @@ MIT License
 
 ## 👤 Author
 
-Created with ❤️ for a sustainable future 🌱
+Created with ❤️ for a sustainable future 🌱by: Saransh Bhargava
